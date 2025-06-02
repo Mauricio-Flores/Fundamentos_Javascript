@@ -1,33 +1,36 @@
 // Declaración de variables
-let numeroEntero = 25;
-let numeroDecimal = 3.14;
-let cadenaTexto = "Hola, mundo";
+let anioNacimiento = 2008;
+let nota = 5.5;
+let mascota = "Michi";
 let valorBooleano = true;
-let arregloNumeros = [1, 2, 3, 4];
+let quePasaGente = "Que pasa gente";
 let objetoPersona = { nombre: "Ana", edad: 30 };
 let valorIndefinido;
 let valorNulo = null;
 const mes = "Junio";
+let colores = "Rojo";
+let usuario = { nombre: "Mauricio", edad: 16 };
+let correo = { correo: "mauricioflores@liceovvh.cl" }
 
 // Funciones para mostrar cada valor con alert()
-function mostrarNumeroEntero() {
-  alert("Número entero: " + numeroEntero);
+function mostrarAnioNacimiento() {
+  alert("Número entero: " + anioNacimiento);
 }
 
-function mostrarNumeroDecimal() {
-  alert("Número decimal: " + numeroDecimal);
+function mostrarNota() {
+  alert("Número decimal: " + nota);
 }
 
-function mostrarCadenaTexto() {
-  alert("Cadena de texto: " + cadenaTexto);
+function mostrarMascota() {
+  alert("Cadena de texto: " + mascota);
 }
 
 function mostrarBooleano() {
   alert("Valor booleano: " + valorBooleano);
 }
 
-function mostrarArreglo() {
-  alert("Arreglo de números: " + arregloNumeros);
+function mostrarQuePasaGente() {
+  alert("texto: " + quePasaGente);
 }
 
 function mostrarObjeto() {
@@ -44,4 +47,16 @@ function mostrarNulo() {
 
 function mostrarConstante() {
   alert("Constante mes: " + mes);
+}
+
+function mostrarColorFavorito() {
+  alert("Color favorito: " + colores);
+}
+
+function mostrarUsuario() {
+  alert("Usuario : " + JSON.stringify(usuario));
+}
+
+function mostrarCorreo() {
+  alert("Correo: " + JSON.stringify(correo));
 }
