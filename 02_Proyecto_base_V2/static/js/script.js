@@ -1,16 +1,15 @@
 // Declaración de variables
-let anioNacimiento = 2008;
-let nota = 5.5;
-let mascota = "Michi";
-let valorBooleano = true;
-let quePasaGente = "Que pasa gente";
-let objetoPersona = { nombre: "Ana", edad: 30 };
-let valorIndefinido;
-let valorNulo = null;
-const mes = "Junio";
-let colores = "Rojo";
-let usuario = { nombre: "Mauricio", edad: 16 };
-let correo = { correo: "mauricioflores@liceovvh.cl" }
+let anioNacimiento = 2008; // tipo numerico 
+let nota = 5.5; // tipo númerico decimal  
+let mascota = "Michi"; // string
+let valorPi = 3.1415926535897932384626433832795028841971693993751058209749445923078164062862089986280348253421170679 ; // valor verdader o falso BOOLEAN (0 , 1)
+let quePasaGente = "Que pasa gente"; // tipo cadena de texto
+let usuario = { nombre: "Mauricio", edad: 16 }; // 
+let valorTamañoUniverso; // sin valor asignado, tipo indefinido
+let valorNulo = null; // valor nulo, tipo objeto
+const mes = "Julio"; // constante, tipo cadena de texto
+let colores = "Rojo"; // tipo cadena de texto // Objeto con propiedades nombre y edad
+let correo = { correo: "mauricioflores@liceovvh.cl" } // Objeto con propiedad correo
 
 // Funciones para mostrar cada valor con alert()
 function mostrarAnioNacimiento() {
@@ -22,23 +21,23 @@ function mostrarNota() {
 }
 
 function mostrarMascota() {
-  alert("Cadena de texto: " + mascota);
+  alert("texto: " + mascota);
 }
 
-function mostrarBooleano() {
-  alert("Valor booleano: " + valorBooleano);
+function mostrarPi() {
+  alert("Número decimal" + valorPi);
 }
 
 function mostrarQuePasaGente() {
   alert("texto: " + quePasaGente);
 }
 
-function mostrarObjeto() {
-  alert("Objeto persona: " + JSON.stringify(objetoPersona));
+function mostrarUsuario() {
+  alert("Objeto persona: " + JSON.stringify(usuario));
 }
 
-function mostrarIndefinido() {
-  alert("Valor indefinido: " + valorIndefinido);
+function mostrarTamañoDelUniverso() {
+  alert("Tamaño del universo: " + valorTamañoUniverso);
 }
 
 function mostrarNulo() {
@@ -53,10 +52,10 @@ function mostrarColorFavorito() {
   alert("Color favorito: " + colores);
 }
 
-function mostrarUsuario() {
-  alert("Usuario : " + JSON.stringify(usuario));
-}
-
 function mostrarCorreo() {
   alert("Correo: " + JSON.stringify(correo));
+}
+
+function mostrarResultado() {
+  alert (6 > 5);
 }
