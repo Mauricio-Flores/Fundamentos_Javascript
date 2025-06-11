@@ -44,9 +44,9 @@ function temperatura() {
   let temp = parseInt(prompt("ingrese temperatura"));
   if (temp >= 30) {
     alert("Hace calor")
-  } else if(temp >= 15 && temp <30) { 
+  } else if (temp >= 15 && temp < 30) {
     alert("Agradable")
-  } else if(remp >= -5 && temp <=15){
+  } else if (remp >= -5 && temp <= 15) {
     alert("Hace frio")
   } else {
     alert("Ingrese valor")
@@ -71,8 +71,10 @@ function dosnumeros() {
 
 function promedio() {
   let nota = parseInt(prompt("ingresa tu nota"));
-  if (nota >= 4) {
+  if (nota >= 4 && nota <= 7) {
     alert("Aprobado");
+  } else if (nota >= 8) {
+    alert("ingrese un valor correcto")
   } else {
     alert("reprobado");
   }
