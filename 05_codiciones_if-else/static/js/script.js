@@ -118,7 +118,7 @@ function descuentoProducto() {
 function permisoParaConducir() {
   let respuesta = "si";
   let edad = parseInt(prompt("ingresa edad"))
-  let licencia = prompt("¿Tienes licenvia?")
+  let licencia = prompt("¿Tienes licenvia? (si o no)")
   if (edad >= 18 && licencia == respuesta) {
     alert("Puede conducir")
   } else {
